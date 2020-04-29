@@ -1,0 +1,6 @@
+.tag1:hover {
+  color: red;
+}
+.tag2:active {
+  background: orange;
+}

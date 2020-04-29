@@ -1,20 +1,9 @@
-/*태그선택자 */
 .tit {
-  font: 450% bolder;
-  color: blue;
+  display: inline-flex;
 }
-
-#tit2 {
-  font: 250% bolder;
-  color: blue;
-  margin-left: 150px;
-
-  padding-top: 250px;
-}
-
 #tit1 {
-  color: violet;
+  display: inline-flex;
 }
-/*클래스선택자 */
-
-/*아이디선택자 */
+#tit2 {
+  display: inline-flex;
+}

@@ -1,0 +1,21 @@
+/* 자식선택자 */
+body > h3 {
+  color: #0000ff;
+}
+
+.song > h3 {
+  color: #ff0000;
+}
+
+.song > .s1 > em {
+  color: gray;
+}
+
+.song > .s2 > em {
+  color: green;
+}
+
+/*후손 선택자 */
+.song strong {
+  color: rgb(175, 95, 57);
+}
