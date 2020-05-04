@@ -1,0 +1,45 @@
+/* display : none
+  - 태그를 브라우저 화면에서 제거(자리공간 포함) */
+.box1 > span:nth-child(2) {
+  display: none;
+}
+
+/* visibility : hidden은 자리공간 남음 
+화면 출력 X 자리공간은 남아있음 */
+
+.box1 > span:nth-child(1) {
+  visibility: hidden;
+}
+
+/* display : block 
+   inline태그를 block 태그로 변환
+   width,height 속성 적용됨
+   세로방향출력 */
+.box2 > span:nth-child(2) {
+  display: block;
+}
+
+/* display : inline
+   - block 태그를 inline태그로 변환
+   - 가로방향 태그 출력
+   - width, height  속성 적용안됨  
+   */
+
+.box3 > div:nth-child(2) {
+  display: inline;
+}
+
+/* display : inline-block 
+   - 가로방향 태그 출력(inline)
+   - width,height 속성 적용(block)
+   - * : 박스4의 모든자식태그       */
+.box4 > * {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+
+/* inline-block
+   가로방향으로 정렬(inline 태그의 특징)
+   width 값 height 값 줄수있음(block 태그의 특징) */
